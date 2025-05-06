@@ -114,8 +114,8 @@ try:
         pwm.start(0)
 
     print("Arming ESCs...")
-    send_initial_pulse(2000, 3)
-    send_initial_pulse(1000, 3)
+    send_initial_pulse(2000, 5)
+    send_initial_pulse(1000, 5)
     print("ESCs armed.")
 
     # Start threads
